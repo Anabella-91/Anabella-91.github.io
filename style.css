@@ -1,0 +1,95 @@
+* {
+	font-family: "Golos Text", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 8vh;
+}
+nav h1 {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+}
+.nav-links li {
+	list-style: none;
+}
+nav img {
+	width: 40%;
+}
+.image {
+	width: 50%;
+	display: flex;
+	margin: 0 auto;
+}
+section {
+	padding: 40px;
+}
+.section-text {
+	margin: 30px auto;
+}
+.section-text span {
+	font-weight: 700;
+}
+.contact-text {
+	text-align: center;
+}
+button {
+	background-color: #f4f4f4;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+	border: 0;
+	box-shadow: 0px 1px 3px rgba(166, 175, 195, 0.25);
+	cursor: pointer;
+	font-weight: 500;
+	color: #000;
+}
+button:hover {
+	background-color: #000;
+	color: #fff;
+}
+.mb {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+	section {
+		display: flex;
+	}
+	.section-text {
+		display: flex;
+		flex-direction: column;
+		margin: auto 0;
+		padding: 60px;
+	}
+
+	nav img {
+		width: 15%;
+	}
+	nav img:hover {
+		width: 17%;
+	}
+	nav h1 {
+		font-size: 20px;
+		margin-left: 100px;
+	}
+	.image {
+		width: 30%;
+	}
+}
