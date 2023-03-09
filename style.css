@@ -196,9 +196,6 @@ h2 {
 	.nav_links {
 		text-align: center;
 	}
-	.nav_links li a {
-		font-size: 4rem;
-	}
 	.nav_links a:hover {
 		color: #00fe01;
 	}
