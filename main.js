@@ -21,4 +21,6 @@ icon_close.addEventListener("click", (e) => {
 		icon_close.classList.remove("open");
 	}
 	menu.classList.remove("close");
+	text_index.classList.remove("close");
+	footer_text.classList.remove("close");
 });
